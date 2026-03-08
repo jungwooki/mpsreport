@@ -747,11 +747,11 @@
                         </div>
                     </div>
 
-                    <div className="bg-rose-50 border border-rose-200 p-8 rounded-2xl shadow-sm flex flex-col">
+                    <div className="bg-rose-50 border border-rose-200 p-6 rounded-2xl shadow-sm flex flex-col">
                         <strong className="text-lg mb-3 text-kfa-blue flex items-center gap-2"><Settings size={18} className="text-rose-400 no-print"/> 🩺 주치의 종합 코멘트</strong>
                         <textarea 
                             className="editable-textarea text-sm text-kfa-blue bg-white" 
-                            rows="4" 
+                            rows="3" 
                             value={data.comments.us}
                             onChange={(e) => handleInputChange('comments', 'us', e.target.value)}
                             style={{ borderColor: '#fecdd3' }}
